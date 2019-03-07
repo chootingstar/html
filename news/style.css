@@ -1,0 +1,87 @@
+#news header a{
+    color: #ffFFff;
+    text-shadow: 6px 6px 8px #000000;
+    text-decoration-line: none;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+}
+#news img{
+    width: 100%;
+}
+#menu {
+    grid-column: start;
+    background: #111111;
+    text-align: center;
+
+}
+#menu{
+    line-height: 16px;
+}
+#menu li{
+    padding: 1em;
+}
+#hamburger, .hamburger{
+    display: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: white;
+}
+#menu li:hover{
+    background-color: white;
+}
+#menu li:hover a{
+    color: black;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration-line: none;
+}
+#menu li:nth-child(1){
+    border-bottom: 10px solid blue;
+}
+#menu li:nth-child(2){
+    border-bottom: 10px solid red;
+}
+#menu li:nth-child(3){
+    border-bottom: 10px solid green;
+}
+#menu li:nth-child(4){
+    border-bottom: 10px solid yellow;
+}
+#menu li:nth-child(5){
+    border-bottom: 10px solid aquamarine;
+}
+#menu li:nth-child(6){
+    border-bottom: 10px solid orange;
+}
+li {
+    padding: 8px;
+    display: inline;
+}
+#menu li{
+    display: block;
+    flex: 1;
+    flex-basis: 0%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+aside{
+    background-color: blue;
+    color: white;
+    text-decoration-line: none;
+}
+#related h1 a{
+    color: white;
+    text-decoration-line: none;
+}
+#signup a{
+    justify-content: flex-end
+}

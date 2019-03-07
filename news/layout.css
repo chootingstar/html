@@ -1,0 +1,36 @@
+#news header{
+    max-width: 12em;
+    
+}
+#news header a{
+    position: absolute;
+    padding: 1em;
+    
+}
+#menu nav{
+    max-height: 20px;
+}
+body{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: [start] 4fr [middle] 1fr [end];
+    grid-template-rows: [start] auto [nav] auto [news] 1fr [footer] auto [end];
+}
+aside{
+    grid-column: middle;
+    grid-column-start: middle;
+    grid-column-end: middle;
+grid-row: nav / end;
+    grid-row-start: nav;
+    grid-row-end: end;
+}
+#related{
+    width: 
+}
+header {
+    display: grid;
+grid-template-columns: 1fr auto;
+grid-template-rows: auto auto;
+    grid-column: start / end;
+}

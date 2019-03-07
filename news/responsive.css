@@ -1,0 +1,18 @@
+@media(max-width: 40em){
+    body{
+        width:  100%;
+        
+    }
+    #related{
+        display: none;
+    }
+    
+}
+@media(max-width: 20em){
+    body{
+        width: 100%;
+    }
+    #related{
+        display: block;
+    }
+}
