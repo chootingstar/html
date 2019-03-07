@@ -1,6 +1,8 @@
 @media(max-width: 40em){
     body{
         width:  100%;
+        grid-template-columns: [start] 4fr [end];
+        grid-template-rows: [start] auto [nav] auto [news] auto [footer] auto [end];
         
     }
     #related{

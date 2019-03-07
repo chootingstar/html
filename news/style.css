@@ -12,7 +12,7 @@ body {
 }
 #menu {
     grid-column: start;
-    background: #111111;
+    background: #ffffff;
     text-align: center;
 
 }
@@ -28,13 +28,13 @@ body {
 
 #menu li a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 #menu li:hover{
-    background-color: white;
+    background-color: #2a2f33;
 }
 #menu li:hover a{
-    color: black;
+    color: white;
 }
 ul {
     display: flex;
@@ -45,22 +45,22 @@ ul {
   text-decoration-line: none;
 }
 #menu li:nth-child(1){
-    border-bottom: 10px solid blue;
+    border-top: 10px solid blue;
 }
 #menu li:nth-child(2){
-    border-bottom: 10px solid red;
+    border-top: 10px solid red;
 }
 #menu li:nth-child(3){
-    border-bottom: 10px solid green;
+    border-top: 10px solid green;
 }
 #menu li:nth-child(4){
-    border-bottom: 10px solid yellow;
+    border-top: 10px solid yellow;
 }
 #menu li:nth-child(5){
-    border-bottom: 10px solid aquamarine;
+    border-top: 10px solid aquamarine;
 }
 #menu li:nth-child(6){
-    border-bottom: 10px solid orange;
+    border-top: 10px solid orange;
 }
 li {
     padding: 8px;
