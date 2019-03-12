@@ -1,15 +1,53 @@
+/*News header*/
 #news header a{
     color: #ffFFff;
     text-shadow: 6px 6px 8px #000000;
     text-decoration-line: none;
 }
-
-body {
-    font-family: 'Verdana', sans-serif;
-}
 #news img{
     width: 100%;
 }
+body > header a {
+    color: white;
+    text-decoration: none;
+}
+
+body > header {
+    background-color: #046dd5;
+        padding: 1em;
+}
+header a {
+    font-size: 1.5em;
+}
+
+/*body*/
+body {
+    font-family: 'Verdana', sans-serif;
+}
+body {
+    font-family: 'Verdana', sans-serif;
+}
+body > footer p {
+    margin: 0;
+}
+p {
+    font-family: "Georgia", serif;
+    line-height: 1.4em;
+}
+body > footer {
+    color: white;
+}
+body > footer {
+    align-self: end;
+}
+body > footer {
+    background-color: #2a2f33;
+    color: white;
+    padding: 1em;
+    margin-right: 1em;
+    height: 1em;
+}
+/*nav menu*/
 #menu {
     grid-column: start;
     background: #ffffff;
@@ -73,15 +111,50 @@ li {
     flex-grow: 1;
     flex-shrink: 1;
 }
+#related h1 a{
+    color: white;
+    text-decoration-line: none;
+}
+/*articles*/
+
+/*aside*/
 aside{
     background-color: blue;
     color: white;
     text-decoration-line: none;
 }
-#related h1 a{
-    color: white;
-    text-decoration-line: none;
-}
+
+/*special links*/
 #signup a{
     justify-content: flex-end
+}
+/*Footer*/
+#news footer {
+  color: white;
+  background-color: #f4655f;
+
+  padding: 1em;
+}
+
+#news footer a{
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  padding-bottom: 2px;
+}
+
+#news footer .tags {
+  margin-right: 1em;
+}
+
+#news footer .comments {
+  margin-left: 1em;
+}
+
+#news footer .comments:after {
+  content: ' comments';
+}
+
+#news footer .author:before{
+  content: "By ";
 }

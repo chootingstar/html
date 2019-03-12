@@ -28,9 +28,18 @@ grid-row: nav / end;
 #related{
     width: 
 }
-header {
+body > header {
     display: grid;
 grid-template-columns: 1fr auto;
 grid-template-rows: auto auto;
     grid-column: start / end;
+}
+body > header h2 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+body > header #signup {
+  grid-column: 2;
+  grid-row: 2;
 }
