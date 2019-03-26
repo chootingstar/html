@@ -1,0 +1,26 @@
+.logo{
+    grid-column: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+
+.info{
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.links{
+    padding-right: 14px;
+    padding-left: 14px;
+}
+#content{
+    display: flex;
+    grid-row: auto;
+}
+#spacing{
+    padding-left: 1200px;
+}

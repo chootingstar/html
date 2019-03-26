@@ -1,0 +1,38 @@
+h1{
+    font-family: product-sans, sans-serif;
+}
+#G{
+    font-size: 63pt;
+    color:#4285f4;
+}
+#o{
+    font-size: 63pt;
+    color: #ea4335;
+}
+#o2{
+    font-size: 63pt;
+    color: #fbbc05;
+}
+#g{
+    font-size: 63pt;
+    color: #4285f4;
+}
+#l{
+    font-size: 63pt;
+    color: #34a853;
+}
+#e{
+    font-size: 63pt;
+    color: #ea4335
+}
+#tilt{
+    transform: rotate(335deg);
+}
+.info{
+    color: gray;
+    text-decoration-line: none;
+}
+.links{
+    color: gray;
+    text-decoration-line: none;
+}
